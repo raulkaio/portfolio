@@ -37,9 +37,15 @@
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
-
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
+			});
+			
+			$(window).load(function() {
+			// Animate loader off screen
+			$("#loader").animate({
+				top: -200
+				}, 1500);
 			});
 
 		// Touch?
