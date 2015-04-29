@@ -36,11 +36,11 @@
 			$header = $('#header');
 
 		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+			/*$body.addClass('is-loading');
 
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
-			});
+			});*/
 
 		// Touch?
 			if (skel.vars.isMobile) {
