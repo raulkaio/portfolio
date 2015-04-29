@@ -37,13 +37,8 @@
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
-			
-			// Animate loader off screen
-			$(window).load(function() {
+			$window.on('load', function() {
 				$body.removeClass('is-loading');
-				$("#loader").animate({
-					top: -200
-				}, 1500);
 			});
 
 		// Touch?
@@ -97,9 +92,9 @@
 
 							$header.css('background-position', 'left 0px');
 
-							$(window).load(function()('scroll.strata_parallax', function() {
+							$window.on('scroll.strata_parallax', function() {
 								$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
-							}));
+							});
 
 						}
 
