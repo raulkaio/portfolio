@@ -37,9 +37,10 @@
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
-			$window.onload(function() {
+			function removeClass() {
 				$body.removeClass('is-loading');
-			});
+			}
+			$window.onload = removeClass;
 
 		// Touch?
 			if (skel.vars.isMobile) {
