@@ -1,4 +1,4 @@
-Portfolio de Raul Kaio,
+Portfólio de Raul Kaio,
 https://github.com/raulkaio
 
 based on Strata by HTML5 UP
@@ -6,7 +6,8 @@ html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 Credits:
-	Styling:      Raul Kaio (github.com/raulkaio)
+	Styling:	
+		Raul Kaio (github.com/raulkaio)
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 	Other:
