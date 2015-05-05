@@ -64,9 +64,9 @@
 		margin: 0 0 2em 0;
 	}
 	
-	#three p {
+	/*#three p {
 		margin: 0 0 1em 0;
-	}
+	}*/
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #787878;
@@ -1248,4 +1248,14 @@
 	body.is-touch .poptrox-popup .nav-previous,
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
+	}
+	
+/* Custom */
+
+	#three .experience{
+		border-bottom: solid 2px rgba(239, 239, 239,0.4);
+	}
+	
+	#three .experience.last{
+		border-bottom: none !important;
 	}
